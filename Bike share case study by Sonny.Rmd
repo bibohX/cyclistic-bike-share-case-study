@@ -279,7 +279,7 @@ tripdata_202307_processed <- tripdata_202307 %>%   mutate(across(c(started_at, e
 Changing datatype from chr to dttm for tripdata_202307
 
 ```{r eval=FALSE}
-tripdata_202307_tripv2 <- tripdata_202307_processed %>% mutate(across(c(started_at, ended_at), ~ as.POSIXct(.x, format =                                                       "%Y-%m-%d %H:%M:%S") %>% ymd_hms()))
+tripdata_202307_tripv2 <- tripdata_202307_processed %>% mutate(across(c(started_at, ended_at), ~ as.POSIXct(.x, format = "%Y-%m-%d %H:%M:%S") %>% ymd_hms()))
 ```
 
 Combine data sets into one data frame.
