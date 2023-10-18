@@ -201,8 +201,7 @@ subsequent phases of the case study.
 
 With a clear understanding of the data source and its organization, we
 can proceed to the data cleaning and manipulation tasks in the "Process"
-phase. If you have any specific data preparation tasks you'd like to
-address or if you're ready to continue, please let me know.
+phase.
 
 # PROCESS PHASE
 
